@@ -1,0 +1,22 @@
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 38px;
+    background: #34d94f;
+    padding: 10px 26px 10px 26px;
+    text-decoration: none;
+    border:none;
+  }
+  
+  .btn:hover {
+    background: #43fc3c;
+    text-decoration: none;
+  }
+  .submit{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
