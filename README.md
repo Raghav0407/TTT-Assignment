@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Hello Everyone,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project I have done the analysis of the number of words in my content file.
 
-## Available Scripts
+Firsty , I made a Display component to display the whole data.
 
-In the project directory, you can run:
+I fetched all the contents from the provided link (https://www.terriblytinytales.com/test.txt) using fetch command.
 
-### `npm start`
+I  got all the data and now I have to parse the whole content such that it becomes key-value pair .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I sorted the data and using slice command I got top 20 most frequent words from the content.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Now I have to plot a histogram of the top 20 frequent words.
 
-### `npm test`
+I have a lot of choices to plot a histogram like:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Recharts
 
-### `npm run build`
+2. React Charts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. React-Chartjs-2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+But I liked Recharts a lot.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I read the documentation from the Recharts website (https://recharts.org/en-US/) and just implemented it on my project.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+That's all about my project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thankyou..
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
